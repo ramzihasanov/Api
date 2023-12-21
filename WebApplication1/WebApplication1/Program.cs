@@ -11,7 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AppDbContext>(opt =>
 {
-    opt.UseSqlServer("Server=MSI;Database=testapi;Trusted_Connection=True");
+    opt.UseSqlServer("Server=DESKTOP-V775DN1;Database=testapi;Trusted_Connection=True");
 });
 var app = builder.Build();
 
